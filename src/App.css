@@ -1,5 +1,24 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.App > div:first-child {
+  width: 80%;
+  height: 100%;
+}
+
+.ReactPannellum {
+  height: 100%;
+  width: 100%;
+}
+
+.App > div:last-child {
+  width: 20%;
+  height: 100%;
+  background-color: #1f1b1b;
 }
 
 .App-logo {
